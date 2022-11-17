@@ -1,0 +1,258 @@
+/* 
+body{
+ width: 50%;
+height: 50%;
+ 
+}
+ */
+
+.primary-color {
+  background-color: #68458a;
+}
+
+.custom-shadow {
+  /* box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px; */
+  /* box-shadow: rgb(243, 241, 241) 0px 54px 55px, rgba(252, 251, 251, 0.971) 0px -12px 30px, rgba(249, 249, 249, 0.988) 0px 4px 6px, rgba(200, 193, 193, 0.975) 0px 12px 13px, rgba(233, 230, 230, 0.97) 0px -3px 5px; */
+
+  box-shadow: rgb(239, 234, 234) 0px 18px 50px -10px;
+}
+
+.bg-custom-image {
+  background-image: url("../public/images/wallpaper.jpg");
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  /* background-position: center;*/ 
+  background-repeat: repeat;
+  /* background-size:cover; */
+}
+
+.custom-border {
+  border-radius: 20px;
+}
+
+.custom-color-1 {
+  background-color: white;
+}
+
+.loginbtn {
+  width: 100%;
+  height: 40px;
+  color: white;
+  border: none;
+  font-family: inherit;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+}
+
+.loginbtn:hover {
+  --_p: 0%;
+}
+
+@keyframes active {
+  from {
+    transform: translateY(1px);
+  }
+
+  to {
+    transform: translateY(2px);
+  }
+}
+
+.loginbtn:active {
+  animation: active 1s 1;
+  transition: all 0.1s;
+}
+
+.loginbtn {
+  background: linear-gradient(90deg, #00455e 50%, #20b380 0) var(--_p, 100%) /
+    200% no-repeat;
+  transition: 0.4s;
+}
+
+.loginbtn:hover {
+  color: #20b380;
+}
+
+.custom-color-2 {
+  color: #00455e;
+}
+
+.custom-bg-colour {
+  background-color: #00455e;
+}
+
+.success {
+  border-color: #00455e;
+  color: #00455e;
+}
+
+.cancel {
+  border-color: #ff6361;
+  color: #ff6361;
+}
+
+button {
+  border-radius: 10px;
+}
+
+input {
+  border-width: thin;
+}
+
+.text_field {
+  margin-top: 20px;
+}
+
+.input_field {
+  padding: 5px;
+  padding-left: 10px;
+}
+.bg-blue {
+  background-color: #00455e;
+}
+.shadow-custom {
+  border: black;
+  border-radius: 10px;
+  box-shadow: 3px 3px 3px black;
+}
+
+input {
+  border-width: thin;
+  background-color: #e4e9eb;
+}
+
+textarea {
+  background-color: #e4e9eb;
+}
+
+.title-border-radius {
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px black;
+}
+
+.form-custom-height {
+  height: 100%;
+}
+
+.savebtn {
+  width: 100px;
+  height: 40px;
+  color: #ffffff;
+  border: none;
+  font-family: inherit;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+}
+
+.savebtn:hover {
+  --_p: 0%;
+}
+
+
+@keyframes active {
+  from {
+    transform: translateY(1px);
+  }
+
+  to {
+    transform: translateY(2px);
+  }
+}
+
+.savebtn:active {
+  animation: active 1s 1;
+  transition: all 0.1s;
+}
+
+.savebtn {
+  background: linear-gradient(90deg, #00455e 50%, #20b380 0) var(--_p, 100%) /
+    200% no-repeat;
+  transition: 0.4s;
+}
+
+.savebtn:hover {
+  color: #20b380;
+}
+.signupbtn {
+    width: 100px;
+    height: 40px;
+    color: #ffffff;
+    border: none;
+    font-family: inherit;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+  }
+.signupbtn:hover {
+    --_p: 0%;
+  }
+  @keyframes active {
+    from {
+      transform: translateY(1px);
+    }
+  
+    to {
+      transform: translateY(2px);
+    }
+  }
+  
+  .signupbtn:active {
+    animation: active 1s 1;
+    transition: all 0.1s;
+  }
+  
+  .signupbtn {
+    background: linear-gradient(90deg, #00455e 50%, #20b380 0) var(--_p, 100%) /
+      200% no-repeat;
+    transition: 0.4s;
+  }
+  
+  .signupbtn:hover {
+    color: #20b380;
+  }
+.cancelbtn {
+  margin: auto 3px;
+  height: 40px;
+  color: #ffffff;
+  border: none;
+  font-family: inherit;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+}
+
+.cancelbtn:hover {
+  --_p: 0%;
+}
+
+@keyframes active {
+  from {
+    transform: translateY(1px);
+  }
+
+  to {
+    transform: translateY(2px);
+  }
+}
+
+.cancelbtn:active {
+  animation: active 1s 1;
+  transition: all 0.1s;
+}
+
+.cancelbtn {
+  background: linear-gradient(90deg, #00455e 50%, #d23332 0) var(--_p, 100%) /
+    200% no-repeat;
+  transition: 0.4s;
+}
+
+.cancelbtn:hover {
+  color: #d23332;
+}
